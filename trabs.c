@@ -31,6 +31,7 @@ void mostrar(Musica *v);
 int consulta_reg(Musica *v, char n_reg);
 void ordena_lista(Musica *v);
 int procurar_musica(Musica *v, char n_reg);
+int salvar_reg() // Compilar gcc trabs.c / ./a.out < arq.txt
 
 int main(void){
     Musica *v = malloc(sizeof(Musica));
@@ -186,7 +187,7 @@ int main(int argc, char const *argv[]) {
 
   return 0;
 }
-// cadigo bestinha 
+// código bestinha 
 int main(int argc, char const *argv[]) {
   char s[20] = "testando...1,2,3";
   int v[10] = {1,2,3,4,5,6,7,8,9,10};
